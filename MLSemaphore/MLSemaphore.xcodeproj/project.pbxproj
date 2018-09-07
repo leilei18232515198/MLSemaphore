@@ -1,0 +1,679 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1147662521425FA400408323 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1147662421425FA400408323 /* AppDelegate.m */; };
+		1147662821425FA500408323 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1147662721425FA500408323 /* ViewController.m */; };
+		1147662B21425FA500408323 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1147662921425FA500408323 /* Main.storyboard */; };
+		1147662E21425FA500408323 /* MLSemaphore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1147662C21425FA500408323 /* MLSemaphore.xcdatamodeld */; };
+		1147663021425FA800408323 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1147662F21425FA800408323 /* Assets.xcassets */; };
+		1147663321425FA800408323 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1147663121425FA800408323 /* LaunchScreen.storyboard */; };
+		1147663621425FA800408323 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1147663521425FA800408323 /* main.m */; };
+		1147664021425FA900408323 /* MLSemaphoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1147663F21425FA900408323 /* MLSemaphoreTests.m */; };
+		1147664B21425FA900408323 /* MLSemaphoreUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1147664A21425FA900408323 /* MLSemaphoreUITests.m */; };
+		ECD0F5BA25D3B085A1838C2E /* libPods-MLSemaphore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69F0EB2D8500C4E799657CB5 /* libPods-MLSemaphore.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1147663C21425FA900408323 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1147661821425FA400408323 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1147661F21425FA400408323;
+			remoteInfo = MLSemaphore;
+		};
+		1147664721425FA900408323 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1147661821425FA400408323 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1147661F21425FA400408323;
+			remoteInfo = MLSemaphore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1147662021425FA400408323 /* MLSemaphore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLSemaphore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1147662321425FA400408323 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1147662421425FA400408323 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1147662621425FA500408323 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1147662721425FA500408323 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1147662A21425FA500408323 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1147662D21425FA500408323 /* MLSemaphore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MLSemaphore.xcdatamodel; sourceTree = "<group>"; };
+		1147662F21425FA800408323 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1147663221425FA800408323 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1147663421425FA800408323 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1147663521425FA800408323 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1147663B21425FA900408323 /* MLSemaphoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MLSemaphoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1147663F21425FA900408323 /* MLSemaphoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLSemaphoreTests.m; sourceTree = "<group>"; };
+		1147664121425FA900408323 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1147664621425FA900408323 /* MLSemaphoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MLSemaphoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1147664A21425FA900408323 /* MLSemaphoreUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLSemaphoreUITests.m; sourceTree = "<group>"; };
+		1147664C21425FA900408323 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50ECFF18D048AE314B76EEBF /* Pods-MLSemaphore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLSemaphore.release.xcconfig"; path = "Pods/Target Support Files/Pods-MLSemaphore/Pods-MLSemaphore.release.xcconfig"; sourceTree = "<group>"; };
+		69F0EB2D8500C4E799657CB5 /* libPods-MLSemaphore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MLSemaphore.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A84A0CC2A09A3A9AA7146BBB /* Pods-MLSemaphore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLSemaphore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MLSemaphore/Pods-MLSemaphore.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1147661D21425FA400408323 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD0F5BA25D3B085A1838C2E /* libPods-MLSemaphore.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1147663821425FA900408323 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1147664321425FA900408323 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1147661721425FA400408323 = {
+			isa = PBXGroup;
+			children = (
+				1147662221425FA400408323 /* MLSemaphore */,
+				1147663E21425FA900408323 /* MLSemaphoreTests */,
+				1147664921425FA900408323 /* MLSemaphoreUITests */,
+				1147662121425FA400408323 /* Products */,
+				A650714CE2000232E27C797C /* Pods */,
+				6F5D60B9F49892CECD038432 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1147662121425FA400408323 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1147662021425FA400408323 /* MLSemaphore.app */,
+				1147663B21425FA900408323 /* MLSemaphoreTests.xctest */,
+				1147664621425FA900408323 /* MLSemaphoreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1147662221425FA400408323 /* MLSemaphore */ = {
+			isa = PBXGroup;
+			children = (
+				1147662321425FA400408323 /* AppDelegate.h */,
+				1147662421425FA400408323 /* AppDelegate.m */,
+				1147662621425FA500408323 /* ViewController.h */,
+				1147662721425FA500408323 /* ViewController.m */,
+				1147662921425FA500408323 /* Main.storyboard */,
+				1147662F21425FA800408323 /* Assets.xcassets */,
+				1147663121425FA800408323 /* LaunchScreen.storyboard */,
+				1147663421425FA800408323 /* Info.plist */,
+				1147663521425FA800408323 /* main.m */,
+				1147662C21425FA500408323 /* MLSemaphore.xcdatamodeld */,
+			);
+			path = MLSemaphore;
+			sourceTree = "<group>";
+		};
+		1147663E21425FA900408323 /* MLSemaphoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				1147663F21425FA900408323 /* MLSemaphoreTests.m */,
+				1147664121425FA900408323 /* Info.plist */,
+			);
+			path = MLSemaphoreTests;
+			sourceTree = "<group>";
+		};
+		1147664921425FA900408323 /* MLSemaphoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1147664A21425FA900408323 /* MLSemaphoreUITests.m */,
+				1147664C21425FA900408323 /* Info.plist */,
+			);
+			path = MLSemaphoreUITests;
+			sourceTree = "<group>";
+		};
+		6F5D60B9F49892CECD038432 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69F0EB2D8500C4E799657CB5 /* libPods-MLSemaphore.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A650714CE2000232E27C797C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A84A0CC2A09A3A9AA7146BBB /* Pods-MLSemaphore.debug.xcconfig */,
+				50ECFF18D048AE314B76EEBF /* Pods-MLSemaphore.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1147661F21425FA400408323 /* MLSemaphore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1147664F21425FA900408323 /* Build configuration list for PBXNativeTarget "MLSemaphore" */;
+			buildPhases = (
+				77BB2455C95B2D2D11EE2124 /* [CP] Check Pods Manifest.lock */,
+				1147661C21425FA400408323 /* Sources */,
+				1147661D21425FA400408323 /* Frameworks */,
+				1147661E21425FA400408323 /* Resources */,
+				D36F48C18BDF5A699C909711 /* [CP] Embed Pods Frameworks */,
+				92562070691DC98CEE3F1417 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MLSemaphore;
+			productName = MLSemaphore;
+			productReference = 1147662021425FA400408323 /* MLSemaphore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1147663A21425FA900408323 /* MLSemaphoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1147665221425FA900408323 /* Build configuration list for PBXNativeTarget "MLSemaphoreTests" */;
+			buildPhases = (
+				1147663721425FA900408323 /* Sources */,
+				1147663821425FA900408323 /* Frameworks */,
+				1147663921425FA900408323 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1147663D21425FA900408323 /* PBXTargetDependency */,
+			);
+			name = MLSemaphoreTests;
+			productName = MLSemaphoreTests;
+			productReference = 1147663B21425FA900408323 /* MLSemaphoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1147664521425FA900408323 /* MLSemaphoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1147665521425FA900408323 /* Build configuration list for PBXNativeTarget "MLSemaphoreUITests" */;
+			buildPhases = (
+				1147664221425FA900408323 /* Sources */,
+				1147664321425FA900408323 /* Frameworks */,
+				1147664421425FA900408323 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1147664821425FA900408323 /* PBXTargetDependency */,
+			);
+			name = MLSemaphoreUITests;
+			productName = MLSemaphoreUITests;
+			productReference = 1147664621425FA900408323 /* MLSemaphoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1147661821425FA400408323 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = QRScan;
+				TargetAttributes = {
+					1147661F21425FA400408323 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					1147663A21425FA900408323 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 1147661F21425FA400408323;
+					};
+					1147664521425FA900408323 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 1147661F21425FA400408323;
+					};
+				};
+			};
+			buildConfigurationList = 1147661B21425FA400408323 /* Build configuration list for PBXProject "MLSemaphore" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1147661721425FA400408323;
+			productRefGroup = 1147662121425FA400408323 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1147661F21425FA400408323 /* MLSemaphore */,
+				1147663A21425FA900408323 /* MLSemaphoreTests */,
+				1147664521425FA900408323 /* MLSemaphoreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1147661E21425FA400408323 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1147663321425FA800408323 /* LaunchScreen.storyboard in Resources */,
+				1147663021425FA800408323 /* Assets.xcassets in Resources */,
+				1147662B21425FA500408323 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1147663921425FA900408323 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1147664421425FA900408323 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		77BB2455C95B2D2D11EE2124 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MLSemaphore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92562070691DC98CEE3F1417 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MLSemaphore/Pods-MLSemaphore-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D36F48C18BDF5A699C909711 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MLSemaphore/Pods-MLSemaphore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1147661C21425FA400408323 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1147662E21425FA500408323 /* MLSemaphore.xcdatamodeld in Sources */,
+				1147662821425FA500408323 /* ViewController.m in Sources */,
+				1147663621425FA800408323 /* main.m in Sources */,
+				1147662521425FA400408323 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1147663721425FA900408323 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1147664021425FA900408323 /* MLSemaphoreTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1147664221425FA900408323 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1147664B21425FA900408323 /* MLSemaphoreUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1147663D21425FA900408323 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1147661F21425FA400408323 /* MLSemaphore */;
+			targetProxy = 1147663C21425FA900408323 /* PBXContainerItemProxy */;
+		};
+		1147664821425FA900408323 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1147661F21425FA400408323 /* MLSemaphore */;
+			targetProxy = 1147664721425FA900408323 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1147662921425FA500408323 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1147662A21425FA500408323 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1147663121425FA800408323 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1147663221425FA800408323 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1147664D21425FA900408323 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1147664E21425FA900408323 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1147665021425FA900408323 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A84A0CC2A09A3A9AA7146BBB /* Pods-MLSemaphore.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y39PEV44D6;
+				INFOPLIST_FILE = MLSemaphore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-23456789.MLSemaphore";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1147665121425FA900408323 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50ECFF18D048AE314B76EEBF /* Pods-MLSemaphore.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y39PEV44D6;
+				INFOPLIST_FILE = MLSemaphore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-23456789.MLSemaphore";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1147665321425FA900408323 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y39PEV44D6;
+				INFOPLIST_FILE = MLSemaphoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-23456789.MLSemaphoreTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MLSemaphore.app/MLSemaphore";
+			};
+			name = Debug;
+		};
+		1147665421425FA900408323 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y39PEV44D6;
+				INFOPLIST_FILE = MLSemaphoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-23456789.MLSemaphoreTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MLSemaphore.app/MLSemaphore";
+			};
+			name = Release;
+		};
+		1147665621425FA900408323 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y39PEV44D6;
+				INFOPLIST_FILE = MLSemaphoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-23456789.MLSemaphoreUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MLSemaphore;
+			};
+			name = Debug;
+		};
+		1147665721425FA900408323 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y39PEV44D6;
+				INFOPLIST_FILE = MLSemaphoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-23456789.MLSemaphoreUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MLSemaphore;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1147661B21425FA400408323 /* Build configuration list for PBXProject "MLSemaphore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1147664D21425FA900408323 /* Debug */,
+				1147664E21425FA900408323 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1147664F21425FA900408323 /* Build configuration list for PBXNativeTarget "MLSemaphore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1147665021425FA900408323 /* Debug */,
+				1147665121425FA900408323 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1147665221425FA900408323 /* Build configuration list for PBXNativeTarget "MLSemaphoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1147665321425FA900408323 /* Debug */,
+				1147665421425FA900408323 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1147665521425FA900408323 /* Build configuration list for PBXNativeTarget "MLSemaphoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1147665621425FA900408323 /* Debug */,
+				1147665721425FA900408323 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1147662C21425FA500408323 /* MLSemaphore.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1147662D21425FA500408323 /* MLSemaphore.xcdatamodel */,
+			);
+			currentVersion = 1147662D21425FA500408323 /* MLSemaphore.xcdatamodel */;
+			path = MLSemaphore.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1147661821425FA400408323 /* Project object */;
+}
